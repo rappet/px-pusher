@@ -1,0 +1,18 @@
+name: px-pusher
+version: "1.0"
+author: "Raphael Peters <rappet@rappet.de>"
+about: Reads an image and sends its pixels to a pixelflut server
+args:
+  - server:
+      short: s
+      long: server
+      help: "Sets the server location (default: localhost:1337)"
+      takes_value: true
+  - random:
+      short: r
+      long: random
+      help: "Randomizes the output"
+  - FILE:
+      help: Sets the image file to use
+      required: true
+      index: 1

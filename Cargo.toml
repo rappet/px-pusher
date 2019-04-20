@@ -1,0 +1,11 @@
+[package]
+name = "px-pusher"
+version = "0.1.0"
+authors = ["Raphael Peters <rappet@rappet.de>"]
+edition = "2018"
+
+[dependencies]
+pixelflut = { version = "0.0.2", git = "https://github.com/rappet/rust-pixelflut" }
+clap = {version = "2.32", features = ["yaml"]}
+image = "*"
+rand = "0.6"
